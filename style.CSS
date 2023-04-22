@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+}
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+}
+ul {
+  list-style: none;
+  align-items: center;}
+h1 {
+  width: 255px;
+  margin: 0 auto 8px;
+  font-family: "Georgia", serif;
+  text-align: center;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+}
+
+h2 {
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+
+/*Стилизация шапки*/
+.site-header {
+  min-width: 550px;
+  height: 500px;
+  margin-bottom: 70px;
+  padding-top: 30px;
+  background: #847462 no-repeat center url("images/logo.jpg");
+  background-size: cover;
+}
+.header_logo {
+  max-width: 100px;
+}
+.menu_nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header_logo {
+  width: 128px;
+}
+.header_nav {
+  background-color: #fff;
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+.nav_item li {
+  padding: 10px 10px;
+}
+.nav_item:hover {
+  border-bottom: 2px solid orange; 
+}
+.container {
+  margin-top: 50px;
+  width: 100%;
+  color: orange;
+}
+.site-header p {
+  width: 255px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px; 
+}
+
+
+/*Стилизация основного контента*/
+.main_container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+.features {
+  margin: 0 auto 30px;
+  padding: 0 20px;
+}
+.features_container {
+  margin-top: 70px;
+  display: flex;
+}
+.feature_block {
+  margin: 10px 5px;
+  width: 32%;
+}
+.feature_img {
+  width: 95%;
+  height: 170px;
+}
+.feature_block:hover {
+  margin-top: -1px;
+  transition: 0.2s;
+  border-bottom: 1px solid orange;
+}
+.advantages {
+  width: 60%;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+.advantages-list {
+  padding: 0;
+  list-style: none;  
+}
+
+.advantages-item {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  border-left: 20px solid #e2e2e2;
+  color: #999999;
+}
+.road_h {
+  width: 500px;
+  margin: 100px auto;
+}
+.road_item_img {
+  width: 400px;
+}
+.road_container {
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  display: flex;
+  justify-content: end;
+}
+.right_item {
+  width: 400px;
+}
+.left_item {
+  width: 400px;
+}
+.road_text {
+  font-size: 20px;
+}
+.right_text {
+  margin-left: 80px;
+  line-height: 1.4;
+}
+
+/*Стилизация подвала*/
+footer {
+  margin-top: 70px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 370px;
+  background-color: #847462;
+  color: #ffffff;
+}
+.msg_form {
+  width: 300px; 
+  display: flex;
+  flex-direction: column;
+}
+.footer_input {
+  padding: 10px 20px;
+  color: black;
+  margin-top: 10px;
+  background-color: #778c81;
+  border: none;
+  outline: none;
+}
+.footer_input::placeholder {
+  color: #273d31;
+  font-size: 16px;
+}
+#mail {
+  width: 140px;
+}
+.footer_container {
+  bottom: 0;
+  display: flex; 
+  justify-content: space-between;
+}
+.footer_container p {
+  margin: 0 20px;
+}
