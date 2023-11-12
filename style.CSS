@@ -33,7 +33,6 @@ h2 {
 
 /*Стилизация шапки*/
 .site-header {
-  min-width: 550px;
   height: 500px;
   margin-bottom: 70px;
   padding-top: 30px;
@@ -201,4 +200,81 @@ footer {
 .footer-bottom p {
   margin: 0 20px;
   color: orange;
+}
+
+
+@media screen and (max-width: 740px) {
+  .main_container {
+    width: 100%;
+  }
+  footer {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .footer-top {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .form-block {
+    margin-left: -60px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .header_nav {
+    padding: 0;
+    position: fixed;
+    width: 100%;
+  }
+  .header_logo {
+    display: none;
+  }
+  .menu_nav {
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+  }
+
+  .features_container {
+    flex-direction: column;
+  }
+  .feature_block {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .feature_block:hover {
+    border-bottom: none;
+    margin: 20px auto;
+  }
+  .left, .right {
+    margin: 0 auto;
+  }
+  .road_text {
+    margin: 30px 0;
+  }
+}
+@media screen and (max-width: 550px) {
+  
+  .road_h {
+    width: auto;
+  }
+  .menu_nav {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 430px) {
+  .nav-item {
+    font-size: 15px;
+  }
+  .right_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .left_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
